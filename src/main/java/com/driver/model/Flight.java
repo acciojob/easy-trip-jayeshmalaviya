@@ -15,6 +15,15 @@ public class Flight {
     private Date flightDate;
 
     private double duration;
+    private int noOfTicketsBoooked;
+
+    public int getNoOfTicketsBoooked() {
+        return noOfTicketsBoooked;
+    }
+
+    public void setNoOfTicketsBoooked(int noOfTicketsBoooked) {
+        this.noOfTicketsBoooked = noOfTicketsBoooked;
+    }
 
     public Flight() {
 
